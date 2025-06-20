@@ -1,0 +1,5 @@
+List of changes regarding IBMMQ adapter and WebsphereMQ step:
+In the IBMMQ adapter, the SolicitResponse mode is removed and the Query mode is added, same as the WebSphereMQ step.
+Added an extra property called 'Default CCSID' from the WebSphereMQ step to the IBMMQ adapter Subscribe mode.
+NeuronESB solutions with WebSphereMQ steps are converted to use alternative IBMMQ connector.
+Converted IBMMQ adapters with SolicitResponse mode to Query mode.
